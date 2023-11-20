@@ -24,6 +24,7 @@ public class loginPageFactory {
 	}
 
 	public void clickOnLoginButton() {
+		System.out.println("I'm inside Page Factory Class");
 		btn_login.click();
 	}
 
